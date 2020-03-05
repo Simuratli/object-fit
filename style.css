@@ -1,0 +1,32 @@
+html,body{
+	background-color: #a7ff83
+}
+/*verilmiş div elemetinin şəkillərin quruluşuna heç bir aidiyyatı yoxdur. səhifə səliqəli görünsün deyə yaradılıb*/
+div{
+	border-radius: 10px;
+	border: 1px solid black;
+	margin-bottom:15px;
+	padding: 50px
+}
+
+img{
+	width: 100px;
+	background-color: gray;
+	height: 200px;
+}
+
+.cover{
+	object-fit: cover
+}
+.contain{
+	object-fit: contain
+}
+.fill{
+	object-fit: fill
+}
+.none{
+	object-fit: none
+}
+.scaleDown{
+	object-fit: scale-down;
+}
